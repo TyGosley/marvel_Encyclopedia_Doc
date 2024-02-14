@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Marvel Technical Documentation</title>
+</head>
+<body>
+  <nav id="navbar">
+    <header>Marvel Documentation</header>
+    <a href="#Iron_Man" class="nav-link">Iron Man</a>
+    <a href="#Captain_America" class="nav-link">Captain America</a>
+    <a href="#Thor" class="nav-link">Thor</a>
+    <a href="#Hulk" class="nav-link">Hulk</a>
+    <a href="#Black_Widow" class="nav-link">Black Widow</a>
+  </nav>
+  
+  <main id="main-doc">
+    <section id="Iron_Man" class="main-section">
+      <header>Iron Man</header>
+      <p>This section covers Iron Man's technical documentation.</p>
+      <p>It includes details about his armor, technology, and history.</p>
+      <code>console.log("I am Iron Man!");</code>
+      <ul>
+        <li>Armor Mark I</li>
+        <li>Armor Mark II</li>
+        <li>Armor Mark III</li>
+        <li>Armor Mark IV</li>
+        <li>Armor Mark V</li>
+      </ul>
+    </section>
+    
+    <section id="Captain_America" class="main-section">
+      <header>Captain America</header>
+      <p>This section covers Captain America's documentation.</p>
+      <p>It includes details about his shield, combat skills, and leadership.</p>
+      <code>shield.throw();</code>
+      <ul>
+        <li>Shield</li>
+        <li>Combat Training</li>
+        <li>Leadership</li>
+      </ul>
+    </section>
+    
+    <section id="Thor" class="main-section">
+      <header>Thor</header>
+      <p>This section covers Thor's technical documentation.</p>
+      <p>It includes details about Mjolnir, Asgardian abilities, and mythology.</p>
+      <code>hammer.smash();</code>
+      <ul>
+        <li>Mjolnir</li>
+        <li>Asgardian Powers</li>
+        <li>Mythological Background</li>
+      </ul>
+    </section>
+    
+    <section id="Hulk" class="main-section">
+      <header>Hulk</header>
+      <p>This section covers Hulk's technical documentation.</p>
+      <p>It includes details about his transformation, strength, and vulnerabilities.</p>
+      <code>hulk.smash();</code>
+      <ul>
+        <li>Transformation</li>
+        <li>Super Strength</li>
+        <li>Vulnerabilities</li>
+      </ul>
+    </section>
+    
+    <section id="Black_Widow" class="main-section">
+      <header>Black Widow</header>
+      <p>This section covers Black Widow's technical documentation.</p>
+      <p>It includes details about her spy skills, weapons, and background.</p>
+      <code>widow.infiltrate();</code>
+      <ul>
+        <li>Spy Skills</li>
+        <li>Weapons</li>
+        <li>Background</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
